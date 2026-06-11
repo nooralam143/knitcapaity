@@ -30,13 +30,36 @@
             margin: 0 auto;
         }
 
+        /* Header Styling Updates */
+        .app-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .company-name {
+            color: var(--primary);
+            margin: 0 0 0.25rem 0;
+            font-size: 1.8rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
         h1 { 
-            text-align: center; 
             color: #0f172a; 
-            margin-top: 0;
-            margin-bottom: 1.5rem;
-            font-size: 1.6rem;
-            font-weight: 700;
+            margin: 0 0 0.5rem 0;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+
+        .dev-credit {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin: 0;
+            font-weight: 500;
+            font-style: italic;
         }
 
         .section { 
@@ -252,7 +275,12 @@
 <body>
 
     <div class="container">
-        <h1>Knitting Machine Capacity Calculator</h1>
+        <!-- Add Header with Company & Dev details here -->
+        <div class="app-header">
+            <h2 class="company-name">Barnali Collections Ltd.</h2>
+            <h1>Knitting Machine Capacity Calculator</h1>
+            <p class="dev-credit">Develop By Noor Alam, Deputy Manager (IE)</p>
+        </div>
 
         <!-- Machine & Fabric Details (Compact Grid) -->
         <div class="section">
